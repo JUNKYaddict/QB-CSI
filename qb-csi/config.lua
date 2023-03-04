@@ -75,7 +75,7 @@ Config.SecurityCameras = {
 }
 
 Config.AuthorizedVehicles = {
-    -- Grade 5 (Captain)
+    -- Grade 0 
 	[0] = {
         ["poldemonbb"] = "Unmarked 2018 Dodge Demon",
         ["nm_corvette"] = "PD Chevy Corvette C8",
@@ -99,7 +99,7 @@ Config.AuthorizedVehicles = {
         ["2020sup"] = "PD Unmarked Supra",
 
 	},
-	-- Grade 6 (Commander)
+	-- Grade 1
 	[1] = {
         ["poldemonbb"] = "Unmarked 2018 Dodge Demon",
         ["nm_corvette"] = "PD Chevy Corvette C8",
@@ -122,7 +122,7 @@ Config.AuthorizedVehicles = {
 		["pd11"] = "PD Crown Vic",
         ["2020sup"] = "PD Unmarked Supra",
 	},
-	-- Grade 7 (Assistant Chief)
+	-- Grade 2
 	[2] = {
         ["poldemonbb"] = "Unmarked 2018 Dodge Demon",
         ["nm_corvette"] = "PD Chevy Corvette C8",
@@ -145,7 +145,7 @@ Config.AuthorizedVehicles = {
 		["pd11"] = "PD Crown Vic",
         ["2020sup"] = "PD Unmarked Supra",
 	},
-	-- Grade 8 (Chief)
+	-- Grade 3
 	[3] = {
         ["poldemonbb"] = "Unmarked 2018 Dodge Demon",
         ["nm_corvette"] = "PD Chevy Corvette C8",
@@ -168,7 +168,7 @@ Config.AuthorizedVehicles = {
 		["pd11"] = "PD Crown Vic",
         ["2020sup"] = "PD Unmarked Supra",
 	},
-	-- Grade 9 (Commissioner)
+	-- Grade 4
 	[4] = {
         ["poldemonbb"] = "Unmarked 2018 Dodge Demon",
         ["nm_corvette"] = "PD Chevy Corvette C8",
