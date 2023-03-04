@@ -30,19 +30,6 @@ CSI Job for QB-Core Framework
 - [qb-input](https://github.com/qbcore-framework/qb-input) - For accessing evidence stashes
 
 
-## Screenshots
-![On Duty / Off Duty](https://imgur.com/KO2ydlt.png)
-![Whitelisted Police Armory](https://imgur.com/TQVIYFb.png)
-![Whitelisted Police Stash](https://imgur.com/Hh2fbs4.png)
-![Vehicle Spawner](https://imgur.com/plgZ9oD.png)
-![Helicopter Spawner](https://imgur.com/jE2IoqK.png)
-![Fingerprint Scan](https://imgur.com/btmurxh.png)
-![Evidence Stash](https://imgur.com/KBOoUy5.png)
-![Spike Placing](https://imgur.com/mTN6c0h.png)
-![Object Placing](https://imgur.com/7Jate4f.png)
-![Police Alert](https://imgur.com/rAIiWYH.png)
-![Securty Cam](https://imgur.com/vFr8nWf.png)
-
 ## Features
 - Classical requirements like on duty/off duty, clothing, vehicle, stash etc.
 - Citizen ID based armory (Whitelisted)
@@ -510,3 +497,38 @@ Config.Items = {
     }
 }
 ```
+
+## Job
+```
+
+	['csi'] = {
+		label = 'Crime Scene Investigation',
+        type = "leo",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 50
+            },
+			['1'] = {
+                name = 'Photographer',
+                payment = 75
+            },
+			['2'] = {
+                name = 'Lab Technician',
+                payment = 100
+            },
+			['3'] = {
+                name = 'Field Investigator',
+                payment = 125
+            },
+			['4'] = {
+                name = 'Dept Head',
+				isboss = true,
+                payment = 150
+            },
+        },
+	},
+```
+
